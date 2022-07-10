@@ -2,6 +2,8 @@
 
 echo Deploy Project
 
+cd $HOME/docker-ci/
+
 git pull
 
 docker-compose down
