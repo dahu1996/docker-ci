@@ -1,0 +1,7 @@
+# pm2 运行文件
+apps:
+  - script: dist/main.js
+    instances: 4
+    watch: true
+    env  :
+      NODE_ENV: production

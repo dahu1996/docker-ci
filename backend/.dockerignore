@@ -1,0 +1,9 @@
+node_modules
+test
+dist
+**/*.spec.ts
+.gitignore
+.eslintrc.js
+.gitignore
+.gitkeep
+.prettierrc
